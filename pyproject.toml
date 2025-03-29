@@ -1,0 +1,15 @@
+[project]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.11"
+dependencies = [
+    "flask-sqlalchemy>=3.1.1",
+    "flask>=3.1.0",
+    "email-validator>=2.2.0",
+    "gunicorn>=23.0.0",
+    "flask-login>=0.6.3",
+    "flask-wtf>=1.2.2",
+    "sqlalchemy>=2.0.39",
+]
